@@ -1,4 +1,5 @@
 [
 null,
-{"id":1,"expanded":false,"name":"MAP001","order":1,"parentId":0,"scrollX":1092,"scrollY":604}
+{"id":1,"expanded":true,"name":"MAP001","order":1,"parentId":0,"scrollX":1638,"scrollY":906},
+{"id":2,"expanded":false,"name":"Затерянный лес","order":2,"parentId":1,"scrollX":1622,"scrollY":1226}
 ]
