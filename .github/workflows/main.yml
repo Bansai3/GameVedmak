@@ -28,6 +28,6 @@ jobs:
         continue-on-error: true
 
       - name: run Notepad
-        run: notepad
+        run: C:\_tmptmp>RPGMPacker-Windows.exe -v
         shell: powershell
         continue-on-error: true
