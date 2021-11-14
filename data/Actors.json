@@ -1,6 +1,101 @@
 [
-null,
-{"id":1,"battlerName":"vedmak","characterIndex":0,"characterName":"vedmrun","classId":1,"equips":[5,0,0,0,0],"faceIndex":0,"faceName":"vedmface","traits":[{"code":51,"dataId":7,"value":1},{"code":51,"dataId":8,"value":1},{"code":51,"dataId":1,"value":1},{"code":52,"dataId":3,"value":1},{"code":52,"dataId":4,"value":1}],"initialLevel":1,"maxLevel":99,"name":"Vedmak","nickname":"","note":"","profile":"Tough man"},
-{"id":2,"battlerName":"wizard","characterIndex":0,"characterName":"wizrun","classId":3,"equips":[3,0,0,0,0],"faceIndex":0,"faceName":"wizface","traits":[{"code":31,"dataId":4,"value":1},{"code":31,"dataId":2,"value":1},{"code":52,"dataId":3,"value":1},{"code":52,"dataId":4,"value":1}],"initialLevel":30,"maxLevel":99,"name":"Wizard","nickname":"","note":"","profile":""},
-{"id":3,"battlerName":"","characterIndex":7,"characterName":"People1","classId":1,"equips":[0,0,0,0,0],"faceIndex":7,"faceName":"People1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Mama","nickname":"","note":"","profile":""}
+  null,
+  {
+    "id": 1,
+    "battlerName": "vedmak",
+    "characterIndex": 0,
+    "characterName": "vedmrun",
+    "classId": 1,
+    "equips": [ 5, 0, 0, 0, 0 ],
+    "faceIndex": 0,
+    "faceName": "vedmface",
+    "traits": [
+      {
+        "code": 51,
+        "dataId": 7,
+        "value": 1
+      },
+      {
+        "code": 51,
+        "dataId": 8,
+        "value": 1
+      },
+      {
+        "code": 51,
+        "dataId": 1,
+        "value": 1
+      },
+      {
+        "code": 52,
+        "dataId": 3,
+        "value": 1
+      },
+      {
+        "code": 52,
+        "dataId": 4,
+        "value": 1
+      }
+    ],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Vedmak",
+    "nickname": "",
+    "note": "",
+    "profile": "Tough man"
+  },
+  {
+    "id": 2,
+    "battlerName": "wizard",
+    "characterIndex": 0,
+    "characterName": "wizrun",
+    "classId": 3,
+    "equips": [ 3, 0, 0, 0, 0 ],
+    "faceIndex": 0,
+    "faceName": "wizface",
+    "traits": [
+      {
+        "code": 31,
+        "dataId": 4,
+        "value": 1
+      },
+      {
+        "code": 31,
+        "dataId": 2,
+        "value": 1
+      },
+      {
+        "code": 52,
+        "dataId": 3,
+        "value": 1
+      },
+      {
+        "code": 52,
+        "dataId": 4,
+        "value": 1
+      }
+    ],
+    "initialLevel": 30,
+    "maxLevel": 99,
+    "name": "Wizard",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  },
+  {
+    "id": 3,
+    "battlerName": "",
+    "characterIndex": 7,
+    "characterName": "People1",
+    "classId": 1,
+    "equips": [ 0, 0, 0, 0, 0 ],
+    "faceIndex": 7,
+    "faceName": "People1",
+    "traits": [],
+    "initialLevel": 1,
+    "maxLevel": 99,
+    "name": "Mama",
+    "nickname": "",
+    "note": "",
+    "profile": ""
+  }
 ]
