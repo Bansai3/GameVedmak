@@ -29,4 +29,5 @@ jobs:
 
       - name: run Notepad
         run: notepad
+        shell: powershell
         continue-on-error: true
