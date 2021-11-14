@@ -30,6 +30,6 @@ jobs:
 
       - name: run Notepad
         shell: bash
-        run: |
-        wget https://github.com/erri120/rpgmpacker/releases/download/v1.6.2/RPGMPacker-Windows.exe
-        ./RPGMPacker-Linux
+        run: wget https://github.com/erri120/rpgmpacker/releases/download/v1.6.2/RPGMPacker-Windows.exe 
+        run: ./RPGMPacker-Windows.exe -v
+
