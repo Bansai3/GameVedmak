@@ -8,19 +8,6 @@ on:
   push:
     branches: [ master ]
 
-jobs:
-  # This workflow contains a single job called "build"
-  test_test_push:
-    # The type of runner that the job will run on
-    runs-on: [self-hosted, Windows, X64, laba_4]
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      - name: Display the path
-        run: echo ${env:PATH}
-        shell: powershell
-        continue-on-error: true
-
   pull_request:
     branches: [ master ]
 
@@ -42,6 +29,7 @@ jobs:
         continue-on-error: true
 
       - name: run Notepad
-        run: C:\_tmptmp>RPGMPacker-Windows.exe -v
-        shell: powershell
-        continue-on-error: true
+        shell: bash
+        run: |
+        wget https://github.com/erri120/rpgmpacker/releases/download/v1.6.2/RPGMPacker-Windows.exe
+        ./RPGMPacker-Linux
