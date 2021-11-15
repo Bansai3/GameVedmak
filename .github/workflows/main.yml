@@ -16,7 +16,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Display the path
+      - name: path
         run: echo ${env:PATH}
         shell: powershell
         continue-on-error: true
