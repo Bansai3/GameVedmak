@@ -5,7 +5,11 @@ jobs:
   compile_job:
     runs-on: [self-hosted, Windows, X64, laba_4]
     steps:
-     - name: Display the path
+     - name: Download packer tool for RPG Maker 
+       run: 'wget -O C:\university\RPGMPacker.exe https://github.com/erri120/rpgmpacker/releases/download/v1.6.2/RPGMPacker-Windows.exe'
+       shell: powershell
+       continue-on-error: false
+     - name: Pack RPG Maker source code
        run: 'C:\_tmptmp\RPGMPacker-Windows.exe -v'
        shell: powershell
        continue-on-error: true
