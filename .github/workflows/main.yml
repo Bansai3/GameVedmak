@@ -1,12 +1,12 @@
 name: Test-Game-Compile
 on: 
-    push:
-        branches: main
-       jobs:
-            compile_job:
-                runs-on: [self-hosted, Windows, X64, laba_4]
-                steps:
-                    - name: Display the path
-                        run: echo ${env:PATH}
-                        shell: powershell
-                        continue-on-error: true
+ push:
+  branches: main
+jobs:
+  compile_job:
+    runs-on: [self-hosted, Windows, X64, laba_4]
+       steps:
+         - name: Display the path
+             run: echo ${env:PATH}
+             shell: powershell
+             continue-on-error: true
