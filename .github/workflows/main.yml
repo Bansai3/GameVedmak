@@ -4,7 +4,7 @@ on:
 jobs:
   compile_job:
     runs-on: [self-hosted, Windows, X64, laba_4]
-       steps:
+    steps:
          - name: Display the path
              run: echo ${env:PATH}
              shell: powershell
