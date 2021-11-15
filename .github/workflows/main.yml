@@ -1,8 +1,9 @@
-name: first-github-action
-on: push
-    branches:
-    - master 
-jobs:
+name: Test-Game-Compile
+on: 
+  push:
+    branches: [ main ]
+ 
+ jobs:
   compile_job:
     runs-on: [self-hosted, Windows, X64, laba_4]
     steps:
