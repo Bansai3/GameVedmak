@@ -10,6 +10,6 @@ jobs:
        shell: powershell
        continue-on-error: false
      - name: Pack RPG Maker source code
-       run: 'C:\_tmptmp\RPGMPacker-Windows.exe -v'
+       run: 'C:\_tmptmp\RPGMPacker-Windows.exe'
        shell: powershell
        continue-on-error: true
