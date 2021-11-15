@@ -9,6 +9,10 @@ jobs:
        run: 'wget -O C:\university\RPGMPacker.exe https://github.com/erri120/rpgmpacker/releases/download/v1.6.2/RPGMPacker-Windows.exe'
        shell: powershell
        continue-on-error: false
+     - name: Remove old packed code if it exists 
+       run: 'rm C:\university\lab_4_compiled\ -r -fo'
+       shell: powershell
+       continue-on-error: false
      - name: Pack RPG Maker source code
        run: 'C:\university\RPGMPacker.exe --config "C:\\university\\config.toml"'
        shell: powershell
