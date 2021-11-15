@@ -1,6 +1,7 @@
 name: first-github-action
 on: [push]
-    branches: [ master ]
+    branches:
+    - main
 jobs:
   compile_job:
     runs-on: [self-hosted, Windows, X64, laba_4]
