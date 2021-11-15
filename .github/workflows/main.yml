@@ -1,7 +1,10 @@
 name: first-github-action
 on: [push]
 jobs:
-  write-to-console:
-    runs-on: ubuntu-latest
+  compile_job:
+    runs-on: [self-hosted, Windows, X64, laba_4]
     steps:
-      - run: echo 'Hello world!'
+      - name: Display the path
+        run: echo ${env:PATH}
+        shell: powershell
+        continue-on-error: true
