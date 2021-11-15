@@ -7,15 +7,15 @@ jobs:
   Packer_job:
     runs-on: [self-hosted, Windows, X64, laba_4]
     steps:
-     - name: Download packer tool for RPG Maker 
+     - name: "Download packer tool for RPG Maker"
        run: 'wget -O C:\university\RPGMPacker.exe https://github.com/erri120/rpgmpacker/releases/download/v1.6.2/RPGMPacker-Windows.exe'
        shell: powershell
        continue-on-error: false
-     - name: Remove old packed code if it exists 
+     - name: "Remove old packed code if it exists" 
        run: 'if (Test-Path C:\university\lab_4_compiled\) { rm -r -force C:\university\lab_4_compiled\}'
        shell: powershell
        continue-on-error: false
-     - name: Pack RPG Maker source code
+     - name: "Pack RPG Maker source code"
        run: 'C:\university\RPGMPacker.exe --config "C:\\university\\config.toml"'
        shell: powershell
        continue-on-error: true
