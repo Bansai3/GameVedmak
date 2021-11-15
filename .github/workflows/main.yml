@@ -10,7 +10,7 @@ jobs:
        shell: powershell
        continue-on-error: false
      - name: Remove old packed code if it exists 
-       run: 'rm C:\university\lab_4_compiled\ -r -fo'
+       run: 'if (Test-Path C:\university\lab_4_compiled\) { rm -r -force C:\university\lab_4_compiled\}'
        shell: powershell
        continue-on-error: false
      - name: Pack RPG Maker source code
