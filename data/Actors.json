@@ -88,7 +88,7 @@
     "characterName": "People1",
     "classId": 1,
     "equips": [ 0, 0, 0, 0, 0 ],
-    "faceIndex": dfgfsgsdf,
+    "faceIndex": 7,
     "faceName": "People1",
     "traits": [],
     "initialLevel": 1,
